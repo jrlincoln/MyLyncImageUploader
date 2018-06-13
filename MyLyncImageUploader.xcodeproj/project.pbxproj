@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23FB8FBC20D15DA300558FD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FB8FBB20D15DA300558FD3 /* AppDelegate.swift */; };
+		23FB8FBE20D15DA300558FD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FB8FBD20D15DA300558FD3 /* ViewController.swift */; };
+		23FB8FC020D15DA500558FD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23FB8FBF20D15DA500558FD3 /* Assets.xcassets */; };
+		23FB8FC320D15DA500558FD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23FB8FC120D15DA500558FD3 /* Main.storyboard */; };
+		23FB8FCF20D15DA600558FD3 /* MyLyncImageUploaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FB8FCE20D15DA600558FD3 /* MyLyncImageUploaderTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23FB8FCB20D15DA600558FD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23FB8FB020D15DA300558FD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23FB8FB720D15DA300558FD3;
+			remoteInfo = MyLyncImageUploader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23FB8FB820D15DA300558FD3 /* MyLyncImageUploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLyncImageUploader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23FB8FBB20D15DA300558FD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23FB8FBD20D15DA300558FD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23FB8FBF20D15DA500558FD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23FB8FC220D15DA500558FD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23FB8FC420D15DA500558FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23FB8FC520D15DA500558FD3 /* MyLyncImageUploader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyLyncImageUploader.entitlements; sourceTree = "<group>"; };
+		23FB8FCA20D15DA600558FD3 /* MyLyncImageUploaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLyncImageUploaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23FB8FCE20D15DA600558FD3 /* MyLyncImageUploaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLyncImageUploaderTests.swift; sourceTree = "<group>"; };
+		23FB8FD020D15DA600558FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23FB8FB520D15DA300558FD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23FB8FC720D15DA600558FD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23FB8FAF20D15DA300558FD3 = {
+			isa = PBXGroup;
+			children = (
+				23FB8FBA20D15DA300558FD3 /* MyLyncImageUploader */,
+				23FB8FCD20D15DA600558FD3 /* MyLyncImageUploaderTests */,
+				23FB8FB920D15DA300558FD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23FB8FB920D15DA300558FD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23FB8FB820D15DA300558FD3 /* MyLyncImageUploader.app */,
+				23FB8FCA20D15DA600558FD3 /* MyLyncImageUploaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23FB8FBA20D15DA300558FD3 /* MyLyncImageUploader */ = {
+			isa = PBXGroup;
+			children = (
+				23FB8FBB20D15DA300558FD3 /* AppDelegate.swift */,
+				23FB8FBD20D15DA300558FD3 /* ViewController.swift */,
+				23FB8FBF20D15DA500558FD3 /* Assets.xcassets */,
+				23FB8FC120D15DA500558FD3 /* Main.storyboard */,
+				23FB8FC420D15DA500558FD3 /* Info.plist */,
+				23FB8FC520D15DA500558FD3 /* MyLyncImageUploader.entitlements */,
+			);
+			path = MyLyncImageUploader;
+			sourceTree = "<group>";
+		};
+		23FB8FCD20D15DA600558FD3 /* MyLyncImageUploaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				23FB8FCE20D15DA600558FD3 /* MyLyncImageUploaderTests.swift */,
+				23FB8FD020D15DA600558FD3 /* Info.plist */,
+			);
+			path = MyLyncImageUploaderTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23FB8FB720D15DA300558FD3 /* MyLyncImageUploader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23FB8FD320D15DA600558FD3 /* Build configuration list for PBXNativeTarget "MyLyncImageUploader" */;
+			buildPhases = (
+				23FB8FB420D15DA300558FD3 /* Sources */,
+				23FB8FB520D15DA300558FD3 /* Frameworks */,
+				23FB8FB620D15DA300558FD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyLyncImageUploader;
+			productName = MyLyncImageUploader;
+			productReference = 23FB8FB820D15DA300558FD3 /* MyLyncImageUploader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23FB8FC920D15DA600558FD3 /* MyLyncImageUploaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23FB8FD620D15DA600558FD3 /* Build configuration list for PBXNativeTarget "MyLyncImageUploaderTests" */;
+			buildPhases = (
+				23FB8FC620D15DA600558FD3 /* Sources */,
+				23FB8FC720D15DA600558FD3 /* Frameworks */,
+				23FB8FC820D15DA600558FD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23FB8FCC20D15DA600558FD3 /* PBXTargetDependency */,
+			);
+			name = MyLyncImageUploaderTests;
+			productName = MyLyncImageUploaderTests;
+			productReference = 23FB8FCA20D15DA600558FD3 /* MyLyncImageUploaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23FB8FB020D15DA300558FD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = LyncoProducts;
+				TargetAttributes = {
+					23FB8FB720D15DA300558FD3 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					23FB8FC920D15DA600558FD3 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 23FB8FB720D15DA300558FD3;
+					};
+				};
+			};
+			buildConfigurationList = 23FB8FB320D15DA300558FD3 /* Build configuration list for PBXProject "MyLyncImageUploader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23FB8FAF20D15DA300558FD3;
+			productRefGroup = 23FB8FB920D15DA300558FD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23FB8FB720D15DA300558FD3 /* MyLyncImageUploader */,
+				23FB8FC920D15DA600558FD3 /* MyLyncImageUploaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23FB8FB620D15DA300558FD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23FB8FC020D15DA500558FD3 /* Assets.xcassets in Resources */,
+				23FB8FC320D15DA500558FD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23FB8FC820D15DA600558FD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23FB8FB420D15DA300558FD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23FB8FBE20D15DA300558FD3 /* ViewController.swift in Sources */,
+				23FB8FBC20D15DA300558FD3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23FB8FC620D15DA600558FD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23FB8FCF20D15DA600558FD3 /* MyLyncImageUploaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23FB8FCC20D15DA600558FD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23FB8FB720D15DA300558FD3 /* MyLyncImageUploader */;
+			targetProxy = 23FB8FCB20D15DA600558FD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23FB8FC120D15DA500558FD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23FB8FC220D15DA500558FD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23FB8FD120D15DA600558FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23FB8FD220D15DA600558FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		23FB8FD420D15DA600558FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MyLyncImageUploader/MyLyncImageUploader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5WLM3P836G;
+				INFOPLIST_FILE = MyLyncImageUploader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyncoproducts.MyLyncImageUploader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		23FB8FD520D15DA600558FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MyLyncImageUploader/MyLyncImageUploader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5WLM3P836G;
+				INFOPLIST_FILE = MyLyncImageUploader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyncoproducts.MyLyncImageUploader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		23FB8FD720D15DA600558FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5WLM3P836G;
+				INFOPLIST_FILE = MyLyncImageUploaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyncoproducts.MyLyncImageUploaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyLyncImageUploader.app/Contents/MacOS/MyLyncImageUploader";
+			};
+			name = Debug;
+		};
+		23FB8FD820D15DA600558FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5WLM3P836G;
+				INFOPLIST_FILE = MyLyncImageUploaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyncoproducts.MyLyncImageUploaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyLyncImageUploader.app/Contents/MacOS/MyLyncImageUploader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23FB8FB320D15DA300558FD3 /* Build configuration list for PBXProject "MyLyncImageUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23FB8FD120D15DA600558FD3 /* Debug */,
+				23FB8FD220D15DA600558FD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23FB8FD320D15DA600558FD3 /* Build configuration list for PBXNativeTarget "MyLyncImageUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23FB8FD420D15DA600558FD3 /* Debug */,
+				23FB8FD520D15DA600558FD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23FB8FD620D15DA600558FD3 /* Build configuration list for PBXNativeTarget "MyLyncImageUploaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23FB8FD720D15DA600558FD3 /* Debug */,
+				23FB8FD820D15DA600558FD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23FB8FB020D15DA300558FD3 /* Project object */;
+}
